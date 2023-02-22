@@ -3,7 +3,7 @@
     margin: 0px;
     line-height: 1.5rem;
 }
-ul{
+.navigationbar ul{
     display: flex;
 }
 ul li{
@@ -17,6 +17,8 @@ ul li a{
 .navigationbar{
     background-color: black;
     padding: 30px;
+    position: fixed;
+    width: 100%;
 }
  a:hover{
     transition: .05s;
@@ -26,6 +28,7 @@ ul li a{
 .homeWrape{
     display: flex;
     padding: 30px;
+
    
 }
 .homeWrape h1{
@@ -33,11 +36,114 @@ ul li a{
     text-align: center;
 }
 .paraWrap {
-    padding: 10px  ;
+    padding: 20px 40px ;
     border: 1px solid ;
 margin: 2px;
 }
-.homeWrape{
-    background-image: url('/maxresdefault.jpg');
 
-}
+  .about{
+    display: flex;
+
+  }
+  .aboutRightDiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .imageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutLeftDiv{
+    padding: 20px;
+  }
+  .aboutRightDiv{
+    padding: 20px;
+    
+  }
+  .bottomDiv{
+    font-size: 10px ;
+  }
+  .topDiv{
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px 0px 0px 0px black;
+    border-bottom: 2px solid orange;
+    padding: 10px 20px ;
+  }
+  .bottomDiv{
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px 0px 0px 0px black;
+    border-bottom: 2px solid orange;
+    padding: 10px 20px ;
+  }
+  .topDiv h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 0px 0px 20px 0px;
+    text-transform: uppercase;
+  }
+  .contactdetails{
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .contactdetails > div{
+/* background-color: rgb(34, 32, 32); */
+    padding: 20px;
+    height: 350px;
+    width: 100%;
+
+  }
+  .contact > h1{
+    text-align: center;
+    padding: 20px 0px ;
+    text-transform: uppercase   ;
+    color: white;
+  }
+
+  .contactul li{
+    color: #991616;
+padding: 10px 20px ;
+font-size: 25px ;
+  }
+  .contactul li span {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  form input{
+    border: none;
+    border-radius: 4px;
+    padding: 3px 10px;
+    width: 100%;
+    margin: 13px 0px;
+  }
+  button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background: #ff3c3c;
+    color: white;
+    font-size: 20px;
+  }
+  .contact{
+    background-image: url("/images/contact-us-concept-icons-such-as-mobile-phone-e-mail-address-chat-global-communication-on-black-background-for-presentation-web-banner-article-business-and-network-connection-and-company-free-vector.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 10px ;
+  }
+  body{
+    color: white !important;
+    background-attachment:fixed;
+
+    background-image: url("/images/lovepik-contact-us-background-image_500584282.jpg");
+  }
+  h1:hover{
+    text-decoration: underline;
+  }
