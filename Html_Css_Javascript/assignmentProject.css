@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+ul li a {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+ul li {
+  list-style: none;
+}
+.imagewrape img {
+  width: 170px;
+  height: 50px;
+  margin: 15px 71px;
+  padding: 0px 10px;
+}
+.loginBtn {
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #a21c28;
+  height: 35px;
+  width: 70px;
+}
+.loginBtn:hover {
+  background-color: #c42b38;
+}
+
+.text-color {
+  color: #a21c28;
+}
+.HomeSection {
+  height: 475px;
+  background: linear-gradient(50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: linear-gradient(145deg, #fbfbfb, #f3dcde);
+}
+.FirstHeading {
+  line-height: 30px;
+  margin-left: 83px;
+}
+.HomePara {
+  font-size: 15px;
+  line-height: 21px;
+  /* padding: 10px 10px; */
+  margin-top: 20px;
+}
+.ModalButton {
+  border-color: #c6767d;
+  background: transparent;
+  border-radius: 10px;
+  border: 0.8px solid #c6767d;
+  color: #c6767d;
+  font-weight: 400;
+  padding: 2px 18px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.headingLight {
+  color: #c0c0c0;
+  color: #c0c0c0;
+  font-size: 30px;
+  font-weight: 600 !important;
+}
+.headingSubPapra {
+  font-size: 15px;
+  margin: 0px;
+  font-weight: 500;
+}
+.expertiexSection {
+  background-color: #f5f5f5;
+}
