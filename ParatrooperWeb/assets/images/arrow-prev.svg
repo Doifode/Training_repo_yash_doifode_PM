@@ -1,0 +1,7 @@
+<svg id="arrow-prev" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <rect id="Rectangle_17" data-name="Rectangle 17" width="36" height="36" rx="10" fill="#a21c28"/>
+  <g id="arrow-right" transform="translate(10.787 11)">
+    <line id="Line_3" data-name="Line 3" x1="14" transform="translate(0.213 7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_2" data-name="Path 2" d="M19,5l-7,7,7,7" transform="translate(-12 -5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

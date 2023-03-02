@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor Object</title>
+    <!-- <script src="CunstroctorObject.js"></script> -->
+
+</head>
+
+<body>
+
+    <form id="customerForm">
+        <input type="text" id="customerName">
+        <input type="text" id='customerBalance'>
+        <button>Create</button>
+    </form>
+    <form id="depositeForm">
+        <input type="text" id="AccountNumber">
+        <input type="text" id='depositeBalance'>
+        <button>deposite</button>
+    </form>
+
+    <script>
+
+        function BankDetails(name, balance = 0,) {
+            this.customerName = name;
+            this.customerBalance = balance;
+            this.customerId = Date.now()
+            this.depositeAmount = (balancedepo) => {
+                this.customerBalance = this.customerBalance +balancedepo;
+            }
+        }
+        const AccountsArray = []
+        const Form = document.getElementById("customerForm");
+        const Name = document.getElementById("customerName");
+        const Balance = document.getElementById("customerBalance");
+
+
+        const depoForm = document.getElementById("depositeForm");
+        const depoNumber = document.getElementById("AccountNumber");
+        const DepoAmount = document.getElementById("depositeBalance");
+
+        Form.addEventListener('submit', (e) => {
+            e.preventDefault()
+
+            const account = new BankDetails(Name.value, +Balance.value)
+             AccountsArray.push(account);
+            console.log(AccountsArray)
+        })
+
+        depoForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const account = AccountsArray.find((account) => account.customerId === +depoNumber.value);
+            account.depositeAmount(+DepoAmount.value);
+            console.log(AccountsArray)
+
+
+        })
+
+      
+    </script>
+</body>
+
+</html>
