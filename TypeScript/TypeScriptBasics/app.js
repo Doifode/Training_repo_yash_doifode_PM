@@ -14,17 +14,33 @@
 // 4. array - array are also same but here also we can set the which kind of array we gonn store like string , number,object etc.
 // 5. boolean - it store true and false value type 
 // 6. tuple - tuple is used to define fixed array with fixed length,data type also 
-// 7. enum - 
-// 8. any 
-var Role;
-(function (Role) {
-    Role[Role["yash"] = 4] = "yash";
-    Role[Role["om"] = 5] = "om";
-    Role[Role["akash"] = 6] = "akash";
-})(Role || (Role = {}));
-var obj1 = {
-    role: Role.om
-};
-if (obj1.role === Role.om) {
-    console.log(Role.om);
-}
+// 7. enum - enum are the set of variable with automatically defined values the default values start with 0 but we can change it to any number and also the string and mix also  and we can manupulate them through their assigned values as well 
+// 8. any  - any data type allows us to store the all types of value  in variable  we can store string, number,boolean that means  we dont know the what  the value  will be then we use any data type 
+
+ 
+
+// ----------------------------- OBJECT --------------------------------------
+// var obj1 = {
+//     age: 45,
+//     name: 'yash'
+// };
+// var preDefinedDataTypeObj = {
+//     name: 'yash',
+//     age: 22,
+//     status: true
+// };
+// --------------------------ARRAY-------------------------------------------
+//  const stringArray  :number[]=[1,2,5,4,7,8]
+//  const numberArray  :string[]=['yash','om']
+//  console.log(stringArray)
+//  console.log(numberArray)
+//  -------------------------- ENUM TYPE -------------------------------------
+// enum Role {
+//     mon = 4, tue, wed,thur,fri,sat,sun
+// }
+// const obj1 = {
+//     role: Role.om
+// }
+// if (obj1.role === Role.om) {
+//     console.log(Role.om)
+// }
