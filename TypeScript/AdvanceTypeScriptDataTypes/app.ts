@@ -2,8 +2,8 @@
 // --------------------------------UNION DATAT TYPE ---------------------------
 // union data types allow us to give more than one data type to the one variable 
 // like in Add() function  our parameter can get number,and string data type and 
-//depends on  that  scenerio we can create our logic
-//------------------------------------------------------------------------------
+// depends on  that  scenerio we can create our logic
+// ------------------------------------------------------------------------------
 // const Add = (num1: string | number, num2: string | number) => {
 //     let result;
 //     if (typeof num1 === "number" && typeof num2 === "number") {
@@ -48,11 +48,11 @@
 // document.write(n)
 
 
-//---------------------------------------------ALIASES TYPES-------------------------------------
+// ---------------------------------------------ALIASES TYPES-------------------------------------
 // Aliases are the custome types that we can meake using  the  type keyword from typescript 
 // we can create a variable which we store the data types that we wann to get from the user that can  be single and multiple like union as well 
 // we can also set the literal value to aliases as well
-//------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
 // type CustomeDataType = string|number
 // function Add(a:CustomeDataType , b :CustomeDataType ){
 //     if(typeof(a) ==='number' && typeof(b)==='number'){
@@ -109,7 +109,7 @@
 //     return a + b
 // }
 // const PrintVal =(num)=>{
-//     // console.log(num)
+//      console.log(num)
 //     return num
 // }
 
@@ -119,7 +119,7 @@
 // ------------------------------------------------UNKNOWN TYPE ------------------------------------------------------
 // unknown data type are used when we dont know the value which is gonn assign to variable  is not declared yet 
 // we can  store any other values in the unknown type of variable but we can not  assign the unknown variable to other variable 
-//down there data variable is unknown type and  types is string type we cant assign the unknown type variable to the other variable  which type is already declared  
+// down there data variable is unknown type and  types is string type we cant assign the unknown type variable to the other variable  which type is already declared  
 // --------------------------------------------------------------------------------------------------------------------
 // let data : unknown;
 // let data : any;
@@ -132,12 +132,12 @@
 // =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= NEVER TYPE OF FUNCTION -=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-==-=-=
 // The function in which never return value called as never type of function 
 // we can explicitly assign the never type of value to the function 
-//=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-==- 
+// =-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-==- 
 // const ThroughErrorFun =(msg:string) :never =>{
 //     throw { message:msg  }
-//     // while(true){
-//     //    return   
-//     // }
+//      while(true){
+//         return   
+//      }
 //     return "hi i am return type "
 // }
 //   let checknever = ThroughErrorFun("hi i am yashh ") 
