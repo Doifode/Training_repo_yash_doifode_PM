@@ -86,7 +86,7 @@ public,private,protected
 
 public - public specifiers is default specifier that allows us to call the methods properties outside of class 
 private - private specifier allows us to make the method  or property private so no one can acess them outside the class through  object 
-protected - protected specifier are are not accesable through the object instance in other  classes  we cant use directly through the class  
+protected -protected methods and properties are only acceble in extednded classes and not acceble through the object instance 
 
 
 class ParallelMinds{
