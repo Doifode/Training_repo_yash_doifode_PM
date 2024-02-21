@@ -1,11 +1,11 @@
 // variable declaration in typescript 
 // let a = 5;
 // let b = 'yash';
-// we can  declare variable like javascript in ts also 
+// we can  declare variable in javascript also 
 // But here we can add their type also if in case  we want number value be  store in  the  a variable then  we have to give the instruction in javascript but in typescript we get  error at the compile time like if variable is declared to store only number then we cant  able to store the any other data type in it 
 // let num :number;
 // num = 'yash'; // this will be through error at compile time 
-// we  canonly able to store number 
+// we  can only able to store number 
 // num = 45; // this is correct 
 // like that there are other data types as well like 
 // 1. number - number  data  type  store  float value integet ,decimal, negative 1,1.23,-34

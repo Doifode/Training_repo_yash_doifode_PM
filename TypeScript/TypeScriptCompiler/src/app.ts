@@ -1,7 +1,7 @@
 // console.log("Typescript compiler ");
  // --------------------------How to compile one file automatically when  their is change in it ----------------------
  // tsc <file_name> --watch
- // by using this command the compiler  will  ompile file automatically when we make changes  in it
+ // by using this command the compiler  will  compile file automatically when we make changes  in it
 // ---------------------------------COMPILE ALL FILE WHEN GET  MODIFIED ---------------------------
  // how to compile all files in same time  when it gets modified 
  // tsc -- init
@@ -13,7 +13,7 @@
 //  we can prevent perticular  files from compiling through passing them  in the  array of 
 //  excluid in  tsconfig.json  file  
 // "excluid":[ 'file name']
-// like  that we can  also  incluid  which  file we just wann to compile  by using incluid array
+// like  that we can  also  include  which  file we just want to compile  by using incluid array
 // "incluid":[file name]
 // node_modules file is default excluid file so we dont  have to add it in excluid array 
 
@@ -27,8 +27,9 @@ function sendSome (data:any){
     console.log(data)
 
 }
-sendSome('hi i am heres yash  h!!!!')
+sendSome('hi i am heres yash !!!!')
  
 
 
 
+ 

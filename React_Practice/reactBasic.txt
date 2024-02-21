@@ -1,0 +1,11 @@
+What is react ?
+React is an a javascript Liabrary which used to create interactive HTML pages.
+react display HTML and changes that HTML when the user does interactive with dom element.
+React is like wrapper around the HTML
+React is uses jsx (javascript xml)
+
+
+
+
+
+
